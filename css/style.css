@@ -1,0 +1,293 @@
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden; 
+}
+
+nav.navbar-transparente{
+	background: rgba(0,0,0,0.6);
+}
+.btn-entrar{
+    background-color: #f40612;
+    color: white;
+}
+
+body{
+    background-image: url(../imagens/netflix_large.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+.home{
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+
+}
+
+.area_texto{
+    text-align: center;
+}
+.textoinicial{
+    font-size: 2.125rem;
+}
+
+#logotipo{
+    height: 34px;
+    width: 134px;
+    margin-top: 1px;
+}
+
+.conteudo1{
+    background-color: black;
+    height: 65%;
+    border-top: 8px solid rgb(80, 80, 80);
+    border-bottom: 8px solid rgb(80, 80, 80);
+}
+
+.txtcentro{
+    color: white;
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgtv, img{
+    position: relative;
+    max-width: 100%;
+    margin-top: 25px;
+    height: 320px;
+    z-index: 2;
+}
+
+.video1{
+    position: inherit;
+    margin-top: -255px;
+    margin-bottom: 150px;
+    margin-left: 57px;
+    height: 175px;
+}
+
+.conteudo2{
+    background: black;
+    color: white;
+    height: 70%;
+    border-bottom: 8px solid rgb(80, 80, 80);
+}
+
+.mobileaqui img{
+    max-width: 100%;
+    margin-top: 5px;
+    position: relative;
+    height: auto;
+}
+
+.carregando{
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 0.75em;
+    width: 60%;
+    padding: 0.5em 0.75em;
+    position: absolute;
+    margin-top: -130px;
+    background-color: black;
+    z-index: 2;
+    margin-left: 90px;
+    
+}
+
+.imgcarregando{
+    height: 4.5em;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+.conteudo3{
+    background: black;
+    color: white;
+    height: 75%;
+    border-bottom: 8px solid rgb(80, 80, 80);
+}
+
+.telapc{
+    margin-top: 15px;
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    z-index: 2;
+}
+
+.video2{
+    margin-top: -420px;
+    margin-bottom: 200px;
+    margin-left: 102px;
+    width: 330px;
+    
+}
+
+.conteudo4{
+    text-align: center;
+    background: black;
+    color: white;
+    height: auto;
+    border-bottom: 8px solid rgb(80, 80, 80);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo5{
+    background: black;
+    color: white;
+    height: auto;
+    
+}
+
+.btn-tamanho{
+    width: 100%;
+    background: #303030;
+    color: white;
+}
+
+.form-tamanho{
+    max-width: 530px;
+    height: 60px !important;
+
+}
+
+.botaoinicial{
+    width: 300px;
+    height: 60px;
+    background: #f40612;
+    font-size: 1.625rem;
+    color: white;
+    border: 2px solid #f40612;
+}
+
+.form-tamanhoFinal{
+    width: 250px;
+    height: 60px !important;
+    background: #f40612;
+    margin-top: 65px;
+}
+
+.botaofinal{
+    width: 220px;
+    height: 60px;
+    background: #f40612;
+    font-size: 1.225rem;
+    color: white;
+    border: 2px solid #f40612;
+    margin-top: 65px;
+    
+}
+
+.txtclique, .txtclique2, .txtclique3, .txtclique4, .txtclique5{
+    background: #303030;
+    border-top: 1px solid black;
+    display: none;
+}
+
+.txtclique, .txtclique2, .txtclique3, .txtclique4, .txtclique5,p{
+    padding: 10px;
+    font-size: 1.625rem;
+    text-align: left;
+}
+
+li, a{
+    list-style: none;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+a:link{
+    color: #a6a6a6;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #a6a6a6;
+    
+}
+
+li a:visited{
+    color: #a6a6a6;
+}
+
+.linguagem{
+    background-color: black;
+    background-image: none;
+    color: #999;
+    margin-top: 25px;
+    width: 170px;
+    height: 50px;
+    border: 1px solid #333333;
+    border-radius: 2px;
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 16px;
+    
+}
+
+/*** Medias Q ***/
+
+@media (max-width: 575px) { 
+    body{
+        height: 105%;
+    }
+    #logotipo{
+        height: 34px;
+        width: 90px;
+        
+    }
+
+    .botaoinicial{
+		margin: 10px 60px;
+        font-size: 1em;
+        text-align: center;
+    }
+    #formularioAqui{
+        width: 320px;
+    }
+
+    .conteudo1{
+        height: 115%;
+    }
+
+    .conteudo2{
+        height: 100%;
+    }
+    .conteudo3{
+        height: 100%;
+    }
+    .video1{
+        width: 250px;
+        height: 180px;
+        margin-right: 5px;
+    }
+    .video2{
+        
+        margin-bottom: 120px;
+        margin-left: 55px;
+        width: 215px;
+        height: 50px;
+        
+    }
+    .btn-tamanho h2{
+        width: 60%;
+        height: 50%;   
+        font-size: 19px;
+    }
+    #formularioFinalResponse{
+        width: 280px;
+    }
+    .txtclique, .txtclique2, .txtclique3, .txtclique4, .txtclique5,p{
+        padding: 10px;
+        font-size: 1.225rem;
+        text-align: left;
+    }
+
+
+
+ }
